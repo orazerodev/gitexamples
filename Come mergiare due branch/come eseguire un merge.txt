@@ -1,0 +1,12 @@
+comando: git fetch
+	è una sorta di aggiornamento, se in locale non sono aggiornati i branch questo comando aggiorna git
+
+comando: git branch
+	indica quali siano i branch attivi per quel determinato file ed indica in verde il branch nel quale ti trovi in quel momento.
+
+comando: git switch 'nome branch'
+	ti sposti fra i branch
+
+comando: git merge 'nome branch'
+	esegue il merge del branch che hai indicato nel comando all'interno del branch in cui ti trovi, nel caso dell'esempio nell'immagine, aggiunge ciò che 
+	si trova di nuovo nel branch "second" e lo aggiunge al "main"
