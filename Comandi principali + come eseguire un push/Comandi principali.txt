@@ -1,0 +1,15 @@
+comando: git clone https://github.com/orazerodev/'nome repository'
+	cloni il repository indicato nel comando in locale
+comando: git status
+	una volta aggiunti dei nuovi file all'interno della cartella in locale del repository, questo comando 
+	ti indica lo stato della cartella di lavoro, aggiorna lo stato di git
+
+comando: git add .
+	aggiunge le modifiche effettuate alla directory di git
+
+comando: git commit -m "first commit"
+	prima di eseguire un push, questo crea un commento che verrà rilasciato obbligatoriamente al push che 
+	verrà eseguito in seguito
+
+comando: git push
+	esegue l'inserimento dei file dal git locale al git web
