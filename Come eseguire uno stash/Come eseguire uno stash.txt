@@ -1,0 +1,2 @@
+comando: git stash
+	Il comando stash rimuove le modifiche locali ripristinando il git presente sul web
